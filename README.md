@@ -1,7 +1,31 @@
-<<<<<<< HEAD
-# fitness-web-app-react
-Web Application "Fitness Exercises" with Rapid API
-=======
+# Fitness Web Application
+## Documentation
+
+This is a Fitness Exercises Web Application created using Rapid Api. Inludes exercise categories to train your different muscle groups. Browse here with more than 1000 exercises. Web Page includes pagination for your easy use. Also you can find some Youtube videos with the similar exercises and similar equipments.
+
+Data fetched from its source using Rapid API.
+
+User interface designed with Material UI.
+
+https://fitnesskama.netlify.app/
+
+
+## Tech Stack
+
+**Client:** ReactJs, MUI
+
+
+
+
+## Features
+
+- More than 1000 exercises with GIF Images.
+- Exercises with Similar Muscle Groups from Youtube.
+- Exercises with Similar Equipments from Youtube.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -13,10 +37,10 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 ### `npm test`
 
@@ -35,41 +59,80 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### `npx create-react-app`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### `npx install --legacy-peer-deps`
 
-### Analyzing the Bundle Size
+### `npm install @mui/material @mui/styled-engine-sc styled-components`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `npm i react-horizontal-scrolling-menu`
 
-### Making a Progressive Web App
+### `npm install react-bootstrap`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## API Reference
 
-### `npm run build` fails to minify
+#### Get all items
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 7a0203c (Initialize project using Create React App)
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run build
+```
+
+
+## Screenshots
+
+![screencapture-fitnesskama-netlify-app-2022-11-04-13_17_28](https://user-images.githubusercontent.com/84046930/199990863-9a129161-ac13-4331-95a2-c8569344219b.png)
+
+![screencapture-fitnesskama-netlify-app-exercise-0001-2022-11-04-13_17_51](https://user-images.githubusercontent.com/84046930/199990828-9384c877-c186-48e6-83da-24521365f715.png)
+
+
+## Authors
+
+- [@Kamilismayilzade](https://www.github.com/Kamilismayilzade)
+
