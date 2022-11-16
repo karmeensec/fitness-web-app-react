@@ -1,6 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #EBEBD3;
+    background-color: #F8F9F9;
   }
   
   * {
@@ -59,12 +59,12 @@ body {
   }
   
   .main-img {
-    position: absolute;
+   position: absolute;
     right: 40px;
     top: 0px;
     width: 450px;
-    height: 700px;
-    margin-top: -60px;
+    height: 550px;
+    margin-top: 50px;
   }
   
   .exercise-card {
