@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Stack, Typography, Button } from '@mui/material'
-import MainImg from '../assets/main4.png'
+import MainImg from '../assets/main5.png'
 
 const Main = () => {
   return (
