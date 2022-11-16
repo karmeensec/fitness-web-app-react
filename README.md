@@ -127,9 +127,9 @@ To deploy this project run
 
 ## Screenshots
 
-![screencapture-fitnesskama-netlify-app-2022-11-04-13_17_28](https://user-images.githubusercontent.com/84046930/199990863-9a129161-ac13-4331-95a2-c8569344219b.png)
+![screencapture-localhost-3000-2022-11-16-23_35_26](https://user-images.githubusercontent.com/84046930/202309750-b05b4b83-f8f4-4187-8b3b-92aefc8da9e5.png)
 
-![screencapture-fitnesskama-netlify-app-exercise-0001-2022-11-04-13_17_51](https://user-images.githubusercontent.com/84046930/199990828-9384c877-c186-48e6-83da-24521365f715.png)
+![screencapture-localhost-3000-exercise-0001-2022-11-16-23_35_46](https://user-images.githubusercontent.com/84046930/202309778-3c484a19-dbb6-410d-9bd7-932f430150e5.png)
 
 
 ## Authors
