@@ -11,7 +11,7 @@ const Footer = () => {
 
       <Stack px='2rem' pt='1rem' alignItems='center'>
           <img src={FooterLogo} alt='logo' width='30rem' height='30rem' />
-          <Typography variant='h6' pb='1rem' mt='1rem' fontWeight='700'>Created By ©️ Kamil </Typography>
+          <Typography variant='h6' pb='1rem' mt='1rem' fontWeight='700'>Created By ©️ Kamil Isma. </Typography>
           
       </Stack>
 
